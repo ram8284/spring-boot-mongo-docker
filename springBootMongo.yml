@@ -12,7 +12,7 @@ spec:
         name: springboot1
     spec:
       containers:
-      - image: ${REPOSITORY_TAG}
+      - image: 513514468068.dkr.ecr.us-east-1.amazonaws.com/fleetman-position:${BUILD_ID}
         name: springboot1
         ports:
         - name: springboot1
